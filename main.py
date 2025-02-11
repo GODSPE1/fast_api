@@ -12,7 +12,7 @@ inventory = {
 
 @app.get("/")
 def get_root():
-    return {'Data': 'Testing my knowledge'}
+    return {'Data': 'Testing my knowledge on fast api and is working'}
 
 @app.get("/about")
 def about():
